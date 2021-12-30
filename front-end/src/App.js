@@ -8,7 +8,8 @@ import {
 
 import HomePage from './pages/homepage';
 import NavBar from './components/nav';
-import Mock from './pages/mock';
+import Cv from './pages/cv';
+import Snake from './pages/snakepage';
 
 
 function App() {
@@ -18,9 +19,8 @@ function App() {
       <NavBar />
         <Routes>
           <Route exact path='/' element={<HomePage /> } />
-            
-          
-          <Route exact path='/cv' element={<Mock /> } />
+          <Route exact path='/cv' element={<Cv /> } />
+          <Route exact path='/snake' element={<Snake /> } />
         </Routes>
     </Router>
     </>

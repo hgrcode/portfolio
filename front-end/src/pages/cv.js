@@ -3,7 +3,7 @@ import React from "react";
 import Container from 'react-bootstrap/Container'
 
 
-const Mock = () => {
+const Cv = () => {
     return (
         <Container>
         <h1>mock</h1>
@@ -12,4 +12,4 @@ const Mock = () => {
        );    
 }
 
-export default (Mock)
+export default (Cv)
