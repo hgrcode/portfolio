@@ -10,9 +10,9 @@ const LinkCard = (props) => {
     <Card.Img variant="top" src={props.img} height='200px' />
         <Card.Body>
             <Card.Title>{props.Title}</Card.Title>
-            <Card.Text>
-            {props.Body}
-            </Card.Text>
+                <Card.Text>
+                {props.Body}
+                </Card.Text>
            <Link to={props.buttonLink}> <Button variant="primary">{props.Button}</Button></Link>
         </Card.Body>
     </Card>
