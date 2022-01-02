@@ -7,7 +7,7 @@ import Timeline from "../components/timeline";
 const Cv = () => {
     return (
         <Container>
-        <h1>mock</h1>
+        <h1>Coding Venture Timeline</h1>
         <>
         <Timeline />
         </>

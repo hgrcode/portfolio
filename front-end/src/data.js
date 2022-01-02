@@ -10,7 +10,7 @@ const data = [
         link:{
             url:
             'localhost:3000/',
-            text: 'check out here for more >'
+            text: 'Check out here for more >'
         }
 
     },
@@ -21,6 +21,20 @@ const data = [
         category:{
             tag: 'medium',
             color: '#e17b77'
+        },
+        link:{
+            url:'https://github.com/hgrcode?tab=repositories',          
+            text: 'check out here for more >'
+        }
+
+    },
+
+    {
+        text: 'we nkjn oi oij oijoij jo joijgjh jhbhjbj bhjbj bjhn',
+        date: '00/00/00',
+        category:{
+            tag: 'medium',
+            color: '#018f69'
         },
         link:{
             url:'https://github.com/hgrcode?tab=repositories',          

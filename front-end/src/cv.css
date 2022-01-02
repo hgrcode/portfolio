@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+*{
+  box-sizing: border-box;
+}
+
+.body{
+  background-image: linear-gradient(135deg, hsla(0, 0%, 100%, 0.637) 0%,);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+}
+
+#root{
+  width: 100%;
+}
+
+.h1{
+    text-align:left;
+}
+
+.timeline-container{
+  background-color: rgb(221, 216, 216);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 40px 0;    
+}
+
+.timeline-container::after {
+    background-color: red;
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    width:4px;
+    height:100%;
+
+}
+
+.timeline-item{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  margin:10px 0;
+  width: 50%;
+}
+
+.timeline-item:nth-child(odd) {
+  align-self:flex-end;
+  justify-content: flex-start;
+  padding-right: 0px;
+  padding-left: 30px;
+}
+
+.timeline-item-content {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 15px;
+  max-width: 70%;
+  width: 400px;
+  text-align: right;
+}
+
+.timeline-item:nth-child(odd).timeline-item-content {
+  align-items: flex-start;
+  text-align: left;
+  
+}
+
+.timeline-item-content ::after {
+  content: ' ';
+  background-color: red;
+  width: 15px;
+  height: 15px;
+
+}

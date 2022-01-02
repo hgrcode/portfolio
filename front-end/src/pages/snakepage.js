@@ -6,9 +6,14 @@ import Container from 'react-bootstrap/Container'
 const Snake = () => {
     return (
         <Container>
-        <h1>Snake</h1>
-           
-        </Container>
+    
+            <title> Snake Game </title>
+            <head>
+            
+            </head>
+
+    
+         </Container>
        );    
 }
 
