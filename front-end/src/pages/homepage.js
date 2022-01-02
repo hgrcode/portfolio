@@ -12,8 +12,8 @@ const HomePage = () => {
         <Container>
         <h1>Portfolio</h1>
             <Row>
-                <Col md="auto"> <LinkCard Title='Snake' Body='lets play!' Button='Play' buttonLink='/snake' img={Logo}/> </Col>
-                <Col md="auto"><LinkCard Title='Website' Body='lets learn' Button='Play' buttonLink='/snake' img={Logo}/> </Col>
+                <Col md="auto"><LinkCard Title='Snake' Body='lets play!' Button='Play' buttonLink='/snake' img={Logo}/> </Col>
+                <Col md="auto"><LinkCard Title='Website' Body='lets learn' Button='Lets Go' buttonLink='/website' img={Logo}/> </Col>
             </Row>
         </Container>
        );    
