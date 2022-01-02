@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/esm/Container";
 import Nav from 'react-bootstrap/Nav';
-
+import '../styles/navbar.css';
 import {Link} from 'react-router-dom';
 import Logo from '../img/Logo.png';
 
@@ -15,7 +15,7 @@ const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
                     <Link className="navbarbutton" to='/'>Home</Link> 
-                    <Link className="navbarbutton" to='/cv' >CodingVenture</Link>
+                    <Link className="navbarbutton" to='/cv' >Coding Venture</Link>
                     
                 </Nav>
                 </Navbar.Collapse>

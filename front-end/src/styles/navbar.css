@@ -1,0 +1,23 @@
+.navbar{
+    background-color: grey !important;
+  }
+  
+  .navbarbutton{
+    padding-left: 20px ;
+    text-decoration: none;
+    color: black;
+  
+  }
+  .navbarbutton:hover{
+    color:rgb(250, 243, 243);
+  }
+  
+  .logo{
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  
+  .card-img-top{
+    background-color: black;
+  }
+  

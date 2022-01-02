@@ -1,6 +1,6 @@
 import React from 'react';
-
-import timelineData from '../data';
+import '../styles/timeline.css';
+import timelineData from './timelinedata/data';
 import TimelineItem from './timelineitem';
 
 
