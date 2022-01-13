@@ -7,7 +7,7 @@ const Website = () => {
     return (
         <>
         <Container>
-            <h1>Website live</h1>
+            <h1 font-color="red" >Website live</h1>
 
         </Container>
         </>

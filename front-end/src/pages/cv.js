@@ -1,8 +1,8 @@
 import React from "react";
 
-import Container from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container';
 import Timeline from "../components/timeline";
-
+import "../styles/timeline.css";
 
 const Cv = () => {
     return (
