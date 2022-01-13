@@ -5,3 +5,13 @@
  body{
    background-color: #7D869C !important;
  }
+
+ .footer{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}

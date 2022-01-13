@@ -9,6 +9,7 @@ import {
 
 import HomePage from './pages/homepage';
 import NavBar from './components/nav';
+import Footer from './components/footer';
 import Cv from './pages/cv';
 import Snake from './pages/snakepage';
 import Website from './pages/website';
@@ -19,9 +20,11 @@ import Website from './pages/website';
 function App() {
   return(
     <>
-    
     <Router>
       <NavBar />
+      
+      <Footer/>
+       
         <Routes>
           <Route exact path='/' element={<HomePage /> } />
           <Route exact path='/cv' element={<Cv /> } />
@@ -29,9 +32,10 @@ function App() {
           <Route exact path='/website' element={<Website /> } />
         </Routes>
     </Router>
-
     </>
+    
   )
+
 }
 
 export default App;
