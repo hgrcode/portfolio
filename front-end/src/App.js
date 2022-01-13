@@ -22,15 +22,13 @@ function App() {
     <>
     <Router>
       <NavBar />
-      
-      <Footer/>
-       
         <Routes>
           <Route exact path='/' element={<HomePage /> } />
           <Route exact path='/cv' element={<Cv /> } />
           <Route exact path='/snake' element={<Snake /> } />
           <Route exact path='/website' element={<Website /> } />
         </Routes>
+        <Footer />
     </Router>
     </>
     
