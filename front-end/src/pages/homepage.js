@@ -8,6 +8,7 @@ import LinkCard from "../components/card";
 import Logo from '../img/Logo.png'
 import SnakeIcon from '../img/snake-game-icon.png'
 
+
 const HomePage = () => {
     return (
         <Container>
